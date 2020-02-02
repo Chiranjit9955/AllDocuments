@@ -1,0 +1,102 @@
+HTML
+CSS
+FLEX
+Bootstrap
+CSS Grid
+Tachyons
+
+JavaScript ES5 - ES10
+React.js
+	DataFlow from top-bottom only
+	Virtual DOM
+	props
+	state
+	setState
+	LifeCycle Hooks
+			Mounting
+			Updating
+			UnMountin
+	fetch()
+	children
+	Pure vs smart Component
+	ErrorBoundary
+
+Github
+
+Node.js
+Express.js
+Restful API
+Http vs Https
+
+
+Tool:- Postman
+
+Database
+Relational and NonRelational
+postgresql
+Knex.js
+
+Deployment
+Heroku
+
+SSH
+Symmetric Encryption
+Asymmetric Encryption
+Hashing
+
+Tool:- Putty
+Tool:- Git bash
+
+Performance
+Network 
+	Minimize Files:-
+		Minimize Text (Html, css, JavaScript)
+		Minimize Images:-
+	Minimize Deliveries
+		Bundling
+	
+Front End(browser side)
+	Critical Render path
+		HTML :- always add CSS in head tag
+				and JS at the end of the tag
+		CSS 
+			Remove unnecessary style script
+			Avoid fold loading
+			media query
+			Less specification
+			
+		JS 
+			async
+			defer
+			Less dom manipulation
+			avoid long running JavaScript
+
+		
+
+
+
+
+
+Big O
+
+Array
+
+Hash Table
+
+Linked List
+
+Stack 
+
+Queue
+
+Tree
+
+Graph
+
+Recursion and Backtracking
+
+Sorting
+
+Searching - BFS vs DFS
+
+Dynamic Programming
