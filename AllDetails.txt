@@ -20,6 +20,17 @@ React.js
 	children
 	Pure vs smart Component
 	ErrorBoundary
+StateManagement
+	Redux
+		Action
+		Reducer
+		Store
+			Provider
+			Connect
+		Middleware
+			redux logger
+			redux thunk
+	
 
 Github
 
@@ -70,6 +81,21 @@ Front End(browser side)
 			defer
 			Less dom manipulation
 			avoid long running JavaScript
+		Module Bundlers
+			webpack
+			parcel
+			rollup.js
+	Code Optimizing
+		Code splitting
+			manual
+			async component
+			react.lazy
+	Progressive Web APPS
+		HTTPS
+		App Manifest	
+		Service Worker
+			
+			
 
 		
 
@@ -100,3 +126,46 @@ Sorting
 Searching - BFS vs DFS
 
 Dynamic Programming
+
+
+
+
+
+
+
+Mother Care --
+		Before Birth
+		After Birth
+Child Care --
+Study --
+	Communication
+	Self Confidence
+	Intellectual Skills
+	
+Learn New Sport --
+			Indoor
+			Outdoor
+Health Care --
+			Physically
+				Sports
+				Gym
+			Mentally
+				Yoga
+				Meditation
+Nutrition
+		Male
+			Boy
+			Men
+			Old
+		Female
+			Girl
+			Women
+			Lady
+
+RelationalShip
+		Before Marriage
+		After Marriage
+
+Hobbies
+	Traveling
+	Photo Shoot
