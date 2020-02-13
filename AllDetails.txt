@@ -57,6 +57,8 @@ Hashing
 
 Tool:- Putty
 Tool:- Git bash
+Tool:- LightHouse
+Tool:- React developer tools
 
 Performance
 Network 
@@ -96,8 +98,23 @@ Front End(browser side)
 		Service Worker
 			
 			
+Testing
+	Unit Testing
+	Integration Testing
+	Automation Testing
+	
+	JEST
+		Assertion
+		Mocking
+		Enzyme.js
+		Snapshot Testing
 
-		
+TypeScript
+	Dynamic vs Static Type
+	Strongly vs Weakly Type	
+	
+
+SPA Vs Server Side Rendering
 
 
 
