@@ -115,6 +115,9 @@ TypeScript
 	
 
 SPA Vs Server Side Rendering
+		React tool for SSR
+			Gabsby.js
+			next.js
 
 
 
