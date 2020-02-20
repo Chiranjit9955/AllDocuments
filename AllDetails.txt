@@ -118,6 +118,24 @@ SPA Vs Server Side Rendering
 		React tool for SSR
 			Gabsby.js
 			next.js
+			
+
+Security
+	Injection
+		Sanitize inputs
+		Parametrize Query
+	
+	3rd Party Libraries
+		nsp
+		synk
+	
+	Logging
+		Winston
+		Morgan
+	
+	HTTPS Everywhere
+		LetsEncrypt.com
+		cloudflare( also benefits DDOS(Distributed Denial of Services)
 
 
 
