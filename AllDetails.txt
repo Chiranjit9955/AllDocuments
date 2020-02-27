@@ -136,10 +136,32 @@ Security
 	HTTPS Everywhere
 		LetsEncrypt.com
 		cloudflare( also benefits DDOS(Distributed Denial of Services)
+	
+	Code Secrets
+		Environment Variable
+		Commit changes
+	Access Control
+		Principal of Least Privilege
+			e.g:- CORS
+	Data Management
+		Brypt - for password hashing
+		pgcrypto - for encrypt columns in PostgreSQL
 
 
+Docker
+	Container
+	Images
+	Docker Hub
+	Dockfile
+	docker-compose
+		links
+		ports
+		
+		
 
-
+		
+		
+		
 
 Big O
 
