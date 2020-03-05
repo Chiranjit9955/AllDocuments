@@ -156,6 +156,15 @@ Docker
 	docker-compose
 		links
 		ports
+
+Redis
+	Commands
+	Data Types
+		String
+		Hashes
+		List
+		Sets
+		Sorted Sets
 		
 		
 
@@ -229,3 +238,20 @@ RelationalShip
 Hobbies
 	Traveling
 	Photo Shoot
+	
+	
+FrontEnd Designing in (HTML, CSS3, Flex-box, CSSGrid, Bootstrap) and Development of Single Page Web Application in ReactJS(Redux)
+
+BackEnd Development in JavaScript(NodeJS, ExpressJS, NextJS) and .NET(ASP.NET MVC, WebAPI)
+
+Communication between BackEnd and Database in ExpressJS-to-ProstgreSQl(KnexJS) and ASP.NET-to-SQLServer(EntityFrameWork)
+
+Relational Database development in (ProstgreSQl, SQL Server)
+
+Unit Testing in ReactJS(JEST) and .NET(NUnit)
+
+Performance Improvement Of Application Network(Minimize Files),FrontEnd(Code Splitting, Progressive WebAPPS etc.) and BackEnd(
+
+Code Repository in (GitHub, TFS)
+
+Language in (JavaScript, C#)
