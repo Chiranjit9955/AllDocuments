@@ -96,6 +96,13 @@ Front End(browser side)
 		HTTPS
 		App Manifest	
 		Service Worker
+BackEnd	
+	CDNs
+	GZIPS
+	Database Scaling
+	Caching
+	Load Balancing
+		NGINX
 			
 			
 Testing
@@ -166,8 +173,29 @@ Redis
 		Sets
 		Sorted Sets
 		
+Session and JWT
+		Cookies vs session
+		Local storage and session storage
+		Authorization using Middleware
 		
 
+AWS
+	AWS Web services
+		EC2
+		S3
+		Lambda
+		CloundFront
+		DynamoDB
+		IAM
+		
+	Serverless
+		Deploy the lambda function to AWS.
+
+		
+
+Continous Integration, Delievery , Deployment		
+	CircleCI
+		Prettier
 		
 		
 		
@@ -255,3 +283,5 @@ Performance Improvement Of Application Network(Minimize Files),FrontEnd(Code Spl
 Code Repository in (GitHub, TFS)
 
 Language in (JavaScript, C#)
+
+Environment Setup in Docker
