@@ -1,0 +1,16 @@
+1)Database
+2)DBMS
+3)SQL
+4)Tables
+5)Columns/Attributes
+6)Rows/Tuples
+7)Primary Key
+8)Foreign Key
+9)OLAP vs OLTP
+10) SQL commands
+		a) DQL
+		b) DDL
+		c) DML
+		d  DCL
+11)contact()
+12)as
