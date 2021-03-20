@@ -1,0 +1,37 @@
+1) Two pointer solution
+2) Palindrome 
+3) Window Approach
+4) Linked List -> We always receive head as the input
+5) Doubly Linked list will have two pointer next and previous
+6) Cycle Linked List -> 
+		-> const seen = new Set(); // it is the inbuilt data structure in JavaScript
+		-> Optimize using Floyd's Tortoise and Hare Algorithm
+7)Stack - LIFO 
+8)Queue - FIFO
+9)Recursion -> Tail Recursion (all language don't support tail recursion, in JavaScript due to ECMA script it support)
+10)Sorting -> Hoare's QuickSelect algorithm. O(N + N/2 + N/4 + N/8 + N/16) = O(2N) and O(N + N - 1 + N - 2 + N - 3 + N - 4....) = O(N^2)
+11)Divide conquer
+		a) Multi-branch recursion.
+		b) Breaks a problem into multiple smaller but same sub-problems.
+		c) Combines the solutions of sub-problems into the solution for the original problem.
+		
+12)Binary Search :- In general for linear search of sorted array the Time complexity is O(N), but			
+					by using binary search we can reduce the Time complexity to O(log N) as we divide
+					the array based on the median value.
+					
+					log N means for example 16 -> 8-> 4 -> 2 -> 1 = log(16) = 4 we can think as	
+					reverse of exponent 2^4 = 16 
+					
+					log(N) + (log(n/2) + log(n/4) + log(n/8).... ) = log(N) + log(N) = O(2log(N)) = O(log(N))
+13)Binary Tree Traversal :- ask is traversal is important(most of the time we have to)
+14)Binary Tree
+				a) BFS -> mostly we will implement iterative solution (worst case full binary tree O(N))
+				b) DFS -> mostly we will implement recursion solution (worst case is one side binary tree O(N))
+					(i) Inorder (Left, Root, Right)
+					(ii) Preorder (Root, Left, Right)
+					(iii) Postorder (Left, Right, Root)
+15) Full and complete Binary tree :- 
+						-> Full tree means it can have either zero children or two children.
+						-> Complete Binary tree is all the tree level is completely full except for the last level.
+16) Binary Search tree :- ask if their is any duplicate value
+						

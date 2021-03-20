@@ -1,0 +1,98 @@
+-> ReactDOM
+-> Features
+		-> Reusable component
+		-> Virtual DOM
+		-> Unidirectional data flow (State -> Views -> actions -> State) 
+		-> React Eco System
+-> Component -> Functional vs Class component
+-> JSX
+-> State
+-> setState() -> PrevState -> PrevProps, pass second parameter if we want to log something as setState() is async
+-> Props
+-> Props.Children
+-> Life Cycle Hooks 1) Mounting 2) Updating 3) UnMounting
+-> onChange
+-> onClick
+->ClassName
+-> always use arrow function for creating any user-defined method in class component
+-> SASS 
+-> Inline style -> using {{}}
+
+-> Routing
+		-> ReactRouter -> BrowserRouter -> Route (exact, component, path) -> Link -> withRouter (history,match
+		
+-> ReactComponent as Logo (for importing svg files)
+
+-> forms -> event.preventDefault();
+-> Firebase -> auth -> firestore
+		-> Document Reference object (get document snapshot object) or collection reference object(get query snapshot)
+	
+-> componentWillUnMount()
+-> render
+
+->Redux 
+	-> Features
+			-> Good for managing large state
+			-> Useful for sharing data between containers.
+			-> Predictable state management using the 3 principles :-
+								->Single Source of truth.
+								->State is read only.
+								->Change using pure functions
+								
+	->Action -> Root Reducer -> State -> DOM Changes
+	->Redux uses flux pattern.
+	->Redux not completely replace this.state (instead we can have some state)
+	->redux,react-redux, redux-logger
+	->provider -> combinedReducer
+	->Memorization in redux (using Reselect Library)
+					->createSelector
+					->createStructureSelector
+
+	Steps to apply Redux in react project
+	A) Install redux packages and adding Provider
+		1) Install the package 1) redux, react-redux, redux-logger(middleware)
+		2) Import provider from react-redux in index.js and apply to the app component.
+	B) Creating reducer (reducer function takes state, action) and rootreducer
+		3) Create a new folder redux -> create a new file root-reducer.js
+		4) Create a new folder for particular reducer like user -> create a new file user.reducer.js
+		5) Create the userReducer function to control the state.
+		6) import combinedReducer from redux in root.reducer, then combine all the reducer.
+	C) Creating store and adding middleware
+		7) Create a new file store.js, import createStore , applyMiddleware from redux and also import logger from redux-logger.
+		8) Create the store and applyMiddleware in store.js
+	D) Adding store to provider in index.js
+		9) Import store from store.js in index.js and apply to the provide
+	E) Creating action
+		10) Create a new file user.action.js for user in user folder of redux.
+	F) Import connect
+		11) Import the connect from react-redux inside the component where we want to pull the state from reducer.
+	G) Write mapStateToProps function inside the component
+	H) write dispatchToProps function inside the component where we modify the state and import the action
+	
+-> UTF-8 Dingbats
+-> redux-persist -> (persistStore) -> persistReducer -> storage -> PersistGate
+-> Data Normalization (Storing instead of array to hashtable(objects))
+-> object.keys() // object to array
+
+-> Stripe
+
+-> Heroku -> Add domain in firebase authentication
+
+-> process.env.NODE_ENV
+
+-> CSS in JS (styled_component)
+
+-> encodeURI (
+
+-> HOC
+
+-> Redux-thunk (middleware to do async fetch call)
+
+-> !! to covert 0/''/null to false and 1/'somevalue' to true
+
+-> Container pattern :- // It helps to isolated the redux code from the component which don't need that props
+						// instead create a container for that component pull their
+						// container is just pull data from redux as a props and pass it to the respective component
+						
+-> compose from redux // it helps to pass the HOC with the help of parameter 
+		

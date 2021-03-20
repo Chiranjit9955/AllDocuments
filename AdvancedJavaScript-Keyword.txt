@@ -1,0 +1,82 @@
+JavaScript Engine
+JIT compiler
+call stack and memory Heap
+stack overflow
+Garbage collection
+JavaScript Runtime 
+			WebAPI-> Callback Queue -> Event Loop -> Call Stack
+
+JavaScript Single Thread
+Node.js
+
+Execution context
+Hoisting
+Function Expression and Function Declaration
+arguments keyword
+Variable Environment
+Scope Chain -> Global lexical Environment -> Function Lexical Environment
+Block scope vs function scope -> use const and let for block scope
+Global Variables
+IIFE
+this -> call(), apply(), bind() (use arrow function inside another function to use this)
+
+
+Types in JavaScript
+	-> Primitive Types
+	1)Number, 2) string, 3) boolean, 4)undefined, 5) null, 6) symbol, 
+	-> Non-Primitive Types
+	7) {}, 8) [], 9) function(){}
+
+Array.isArray([])
+obj2 = {...obj1} // cloning of object using spread operator
+type coercion , use === to avoid type coercion
+Static vs Dynamic Typing language.
+Strongly vs Weekly Typed Language.
+JavaScript is dynamically week Typed language
+
+Function are objects, first class citizen of JS(store,pass,return).
+Function should not define inside a loop, also declare a default for a function
+Higher Order function
+Closure -> Benefits Memory Efficient, data encapsulation
+prototypal inheritance -> __proto__ -> prototype {}
+
+OOP
+	-> Factory Function
+	-> Object.create()
+	-> constructor function (new keyword)
+	-> ES6 Class syntax
+	-> this in 4 ways
+			-> new binding.
+			-> Implicit binding.
+			-> Explicit binding.
+			-> arrow function.
+	-> private and public (in JS we will don't have private variable)
+
+Functional programming
+	-> pure function.
+	-> Imperative vs Declarative.
+	-> Higher Order Function and closures.
+	-> Currying.
+	-> Partial Application.
+	-> Memoization
+	-> Compose and Pipe
+	-> Arity
+	
+Functional Programming vs OOP
+
+Asynchronous JavaScript
+	-> Promise
+	-> async and await
+	-> fetch
+	-> Job Queue
+	-> parallel, sequential, race
+	-> Threads, concurrency and parallelism
+	
+Some new features of JS
+	-> Nullish Coalescing
+	-> Style Console log
+	-> Optional Chaining
+	-> Object Shorthand
+	-> Defer/Async Loading
+	-> console.table
+	-> console.trace

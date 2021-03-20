@@ -1,0 +1,27 @@
+
+https://www.youtube.com/watch?v=x3c1ih2NJEg Please watch the full video how internet work
+The Internet (or Internet) is the global system of interconnected computer networks that uses 
+			the Internet protocol suite (TCP/IP) to communicate between networks and devices.
+			The Internet carries a vast range of information resources and services,
+			such as the inter-linked hypertext documents and applications of the World Wide Web (WWW), electronic mail, telephony, and file sharing.
+
+ICANN :- Managing IP address assigment, domain name registration etc.
+packet switching :- is a method of grouping data(01) that is transmitted over a digital network into packets.
+
+Protocol 
+	1) TCP/IP :- Transport Data.
+	2) http/https:- Web Access.
+	3) RTP :- Live video streaming and voip calls.
+
+www - where documents and other web resources are identified by Uniform Resource locator (URL)
+Domain Names :- purchased from registrars and linked to your hosting account/web server.
+DNS is used to map ip address to domain name.
+URL - 
+http (request and response) Request Method, Request Body, Response Status
+
+
+Chrome Browser (Blink Engine-(for html to DOM and CSS to CSSOM)) and (V8 Engine for JS)
+
+Soap - Simple Object Access Protocol (use only XML, any application protocol (http, tcp etc)
+
+Restful api (use JSON, http protocol only means can we use for web based application)

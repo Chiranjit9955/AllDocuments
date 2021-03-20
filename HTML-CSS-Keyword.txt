@@ -1,0 +1,176 @@
+<!DOCTTYPE html>
+control + / (to comment line of html page)
+head
+body
+meta (name="viewport","description","keywords","robots")
+h1 to h6 (always try to use one h1 per html page)
+p
+strong
+em
+br
+hr
+a (href, target="_blank")
+img (src,alt)
+ul -> li
+ol -> li
+table -> (thead -> tr -> th) -> (tbody -> tr -> td)
+form (action) 
+	-> label(for) 
+	-> input(type,id,name)
+			type=text , id, name, value
+			type=number, id, name
+			type=email, id, name, placeholder
+			type=radio, value, id, name, checked
+			type=checkbox, value, id, name, checked.
+			type=submit, value
+	-> button
+			->type=submit
+			->type=reset
+	-> textarea (name,id,cols,rows)
+	-> select(name,id) -> action(value, selected)
+
+Block and inline element
+class
+id
+span and div
+entities (&nbsp; &copy; &)
+HTML5 Semantic tag
+	-> header
+	-> main
+	-> section
+	-> article
+	-> nav
+	-> aside
+	-> footer
+
+	
+	
+	
+	
+--------------------------------------------------------CSS---------------------------------------------------------------------------------------------
+CSS Implement
+	-> Inline
+	-> Internal
+	-> External (preferred)
+
+CSS Selectors
+	-> id (#)
+	-> class (.)
+	-> multiple selector (using , between selectors)
+	-> nested selector (put space between selector)
+	-> element (body, p)
+	
+CSS font styling
+	-> font-family
+		-> Web safe
+		-> Google font
+	-> font-size (default is 16px)
+	-> line-height
+	-> font-weight
+	-> font-style
+CSS colors (to color the text)
+	-> name
+	-> rgb
+	-> Hexadecimal (#ffffff)
+CSS Background
+	-> background-color
+	-> border-image (url)
+	-> background-repeat
+	-> background-position
+	-> background: url("./images/universe.jpeg") no-repeat center center/cover; // all together.
+	-> background-attached (fixed) // to fixed to the browser window
+	
+image -> use png for transparent and jpeg for full image
+
+CSS border
+	-> border
+	-> border-radius
+
+CSS box model
+	-> padding (cannot have negative value)
+	-> margin:auto (auto to make the content in middle, and it need to be block level element, for inline just convert to block and apply auto) 
+					//margin can have negative value;
+	-> box-sizing: border-box // to keep the width fixed instead of padding is increased
+	
+CSS alignment
+	-> max-width:960px (it helps in mobile device to make responsive)
+	-> text-align (left, right , center, justify)
+
+CSS float (currently we don't use instead we use flexbox, grid)
+	->float:left/right (use width properties with that)
+    ->clear: both; (use to clear float for both left and right float)
+
+CSS Links and Buttons
+	-> text-decoration: none (to remove the underline of a tag)
+	-> a:hover (visited, active)
+	    .btn {
+        background: #ff0000;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 8px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+CSS Navigation Menu Styling
+	-> list-style: none (to remove the bullet from the list)
+	-> .class-name:li:last-child //psuedo selector
+	-> overflow:auto; //to get the background color
+    -> display:block; // to change the inline element to block
+
+css display	
+	-> display:block
+	-> display:inline
+	-> display:inline-block //(to make block to inline when we want to specify the width)
+
+CSS positioning
+	-> position:static //(its the default one, not affected by tblr(top, bottom,left,right) properties/values)
+	-> position: relative //(tblr values cause element to be moved from its normal position)
+	-> position: absolute //(Positoned relative to its parent element that its positioned "relative" 
+							if not relative is mentioned it will take body/browser window as relative)
+	-> z-index:1; // to give priority to any container with respect to other, higher the value higher the priority;
+	-> position:fixed; // position relative to the viewport (means it will be fixed in the whole page)
+	-> position: sticky; // Positon based on scroll position (the block will move while scrolling also)
+
+CSS visibility
+	-> display:none; // it completely remove from DOM object.
+	-> visibility: hidden; // it just some DOM object
+	
+!important it overrides any of the cascading styles rules and says.(eg:- p{color:pink !important})
+
+opacity:0.5 // to make the content transparent
+
+
+------------Responsive CSS-----------------------------
+1) Media Query to apply the style based on the pixel
+    @media (min-width: 501px) and (max-width: 768px) {
+        body {
+          background: green;
+        }
+
+        #tablet h1 {
+          display: block;
+        }
+      }
+	  
+--------------------css flexbox----------------------------
+display:flexox;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+psuedo element
+p::after/before
+
+
+----------------
+object-fit: cover; // to outstretch the image  
+
+text-shadow
+box-shadow
+
+----------animation-------------
+keyframes
+transition
+transform

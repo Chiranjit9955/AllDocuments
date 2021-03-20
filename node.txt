@@ -1,0 +1,74 @@
+-> setTimeout()
+-> setInterval()
+-> clearInterval()
+-> __filenam
+-> __dirname
+-> Inbuilt module :- os
+-> filesystem :- fs module (asynchronous is nature)
+					-> fs.readFile('',()=> {})
+					-> fs.writeFIle
+					-> fs.mkdir
+					-> fs.rkdir
+					-> fs.delete
+					-> fs.existsSync
+					-> fs.unlink
+
+-> Buffer is package of data is send when we read any file
+-> Streams:- Start using the data, before it has finished loading. The data is divided into small chucks (buffer)
+				-> readStream
+					 const readStream = fs.createReadStream("./docs/blog3.txt", { encoding: "utf8",});
+					
+					readStream.on("data", (chunk) => {
+						console.log("---New chunk----");
+						console.log(chunk);
+					});
+				
+				-> writeStream
+					const writeStream = fs.createWriteStream("./docs/blog4.txt");
+					readStream.pipe(writeStream);
+
+-> http module
+		-> const http = require("http");
+			const server = http.createServer((req, res) => {
+								console.log("request made");
+							});
+						
+		-> status codes describe the type of response sent to the browser
+		
+-> express framework benefits:-
+		1) Managing routing easily.
+		2) Easier to read and write clean code.
+
+-> view engine :- it helps to insert dynamic content in the html page
+			-> ejs view engine
+				const express = require("express");
+				const app = express();
+				// register view engine
+				app.set("view engine", "ejs");
+
+				app.get("/", (req, res) => {
+				  // res.send("<p>Home page </p>");
+				  // res.sendFile("./views/index.html", { root: __dirname });
+				   res.render("index", { title: "Home"});
+				});
+			-> inside view 
+			<title>Blog Chiranjit | <%= title %></title>
+			
+			-> partial view
+			<%- include('./partials/nav.ejs') %>
+
+-> Middleware :- code which runs (on the server) between getting a request and sending a response.
+			-> Logger middleware to log details of every request.
+			-> Authentication check for protected routes.
+			-> Middleware to parse JSON data from requests.
+			-> Return 404 pages.
+			-> next() to move to next task from the current middleware.
+			-> 3rd party middleware like 
+			-> static middleware -> app.use(express.static("public"));
+			-> urlencoded middle to get the form data via req.body -> app.use(express.urlencoded({ extended: true }));
+-> Route Paramter:The variable parts of the route that may change value	const id = req.params.id;	
+
+-> Express router
+			const router = express.Router();
+
+-> MVC 			
